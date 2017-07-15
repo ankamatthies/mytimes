@@ -10,23 +10,20 @@ header {
   font-size: 14px;
   font-weight: bold;
   position: fixed;
-
 }
 
 .logo {
   display: flex;
   align-items: center;
   padding-left: 30px;
-
-
 }
 
 .logo img {
   width: 70px;
   height: 60px;
   margin-right: 12px;
-
 }
+
 .logo span {
   color: MediumAquamarine;
   position: center;
@@ -42,7 +39,23 @@ a {
 
 nav span {
   padding: 20px 10px;
-  display: inline-block;
-  justify-content: space-between;
+}
 
+.column.large {
+  width: 630px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+div {
+  border: 1px solid black;
+  display: block;
+}
+
+p {
+  display: block;
 }
