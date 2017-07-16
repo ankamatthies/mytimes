@@ -73,9 +73,15 @@ nav span {
 .main-story .image-content {
   background-image: url("../../resources/images/img-story-main.png");
   width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
 }
 
 .image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
@@ -84,9 +90,6 @@ nav span {
   text-align: center;
 }
 
-.main-story .image-content span {
-  font-size: 40px;
-}
 
 .fall {
   display: flex;
