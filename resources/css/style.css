@@ -59,3 +59,8 @@ div {
 p {
   display: block;
 }
+
+.content {
+  display: flex;
+  padding-top: 116px;
+}
