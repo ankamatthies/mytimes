@@ -44,8 +44,8 @@ nav span {
 .content {
   display: flex;
   padding-top: 116px;
-  justify-content: space-around;
   width: 1232px;
+  justify-content: space-between;
 }
 
 .column {
@@ -54,6 +54,7 @@ nav span {
 }
 
 .column.large {
+  display: flex;
   width: 630px;
 }
 
@@ -72,33 +73,57 @@ nav span {
 
 .image-content {
   height: 300px;
-}
-
-.image-content span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
+}
+
+.main-story .image-content span {
+  font-size: 40px;
 }
 
 .fall {
+  display: flex;
   background-image: url("../../resources/images/img-story-2.png");
+
 }
 
 .camera {
+  display: flex;
   background-image: url("../../resources/images/img-story-3.png");
+
 }
 
 .cat {
+  display: flex;
   background-image: url("../../resources/images/img-story-1.png");
 
 }
 
-div {
-  border: 1px solid black;
-  display: block;
-}
 
 p {
   display: block;
+}
+
+.text-blocks {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.other-stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.text-content {
+  height: 250px;
 }
