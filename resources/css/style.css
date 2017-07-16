@@ -45,7 +45,7 @@ nav span {
   display: flex;
   padding-top: 116px;
   width: 1232px;
-
+  margin: 0 auto 75px auto; 
 }
 
 .column {
@@ -153,4 +153,35 @@ p {
   margin: 0;
   padding: 11px 20px;
   border-bottom: 1px solid black;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  width: 100%;
+  height: 325px;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+footer .title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+footer .copyright {
+  padding-top: 15px;
 }
